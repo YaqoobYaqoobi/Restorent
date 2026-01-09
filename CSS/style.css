@@ -301,56 +301,136 @@ body{
 }
 
 /* -----------------< section Book >--------------------- */
-
-
-
-
-
-
 /* Book section */
-.conterner-book{
-    display: flex;
-    margin:3%  0;
+.conterner_book{
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   gap: 11%;
+   padding: 5% 0 50px;
+}
+.contaner_of_jmg_in_book_section{
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 .book_all{
+    grid-column-start: 5;
+    grid-column-end: 12;
     display: flex;
     flex-direction: column;
-    padding:0 0 0 4%;
 }
-.h2-in-book{
-    font-size: 2rem;
-    font-weight: 600;
+.h2_in_book{
+    font-size: 2em;
+    font-weight: 300;
 }
-.p-in-book{
-    font-size: x-large;
+.p_in_book{
+    font-size: 1.3em;
 }
-.form-book{
-    margin:3%;
+.form_in_book_section{
     display: grid;
-    grid-template-columns: repeat(2, 5fr);
-    gap: 60% 5%;
-    position: relative;
+    grid-template-columns: repeat(12,1fr);
+    row-gap: 50%;
+    column-gap: 5%;
+    padding-top:5% ;
 }
-.input{
-    border:none;
-    border-bottom: 1px black solid;
-    font-size: large;
+.input_one_of_Book{
+    grid-column-start: 1;
+    grid-column-end:6 ;
 }
-.btn-in-form-book{
-    position: absolute;
-    margin: 15% 300px;
+.input_two_of_Book{
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+.input_three_of_Book{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.input_four_of_Book{
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+.imag_clock_in_book,.img_calendar_in_book{
+    width: 5%;
+}
+.btn_in_form_book{
+    grid-column-start: 4;
+    grid-column-end: 8;
     font-size: larger;
     padding: 10px 5px ;
     border: none;
     border-radius: 7px;
-    width: 200px;
     background: #7c5681;
     color: #fff;
     outline: none;
 }
+.input_in_book_section{
+    border:none;
+    border-bottom: 1px black solid;
+    font-size: large;
+    width: 90%;
+}
+.input_time_date_book_section{
+    border:none;
+    font-size: large;
+    width: 92%; 
+}
+@media(max-width:412px){
+.conterner_book{
+   position: relative;
+   gap: 0;
+   color:#fff;
+}
+.first_img_in_book{
+    width: 400px;
+    height: 50vh;
+}
+.book_all{
+    padding: 15% 0 0 0;
+    position: absolute;
+    right: -30%;
+    width: 400px;
+}
+.h2_in_book{
+    font-size: 0.8em;
+    font-weight: 900;
+}
+.p_in_book{
+    font-size: .6em;
+    padding-right: 20%;
+}
+.imag_clock_in_book,.img_calendar_in_book{
+    width: 10%;
+    margin-top: 5px;
+}
+.btn_in_form_book{
+    font-size: 0.8em;
+    padding: 7px 2px ;
+    border: none;
+    border-radius: 7px;
+    background: #7c5681;
+    color: #fff;
+    outline: none;
+}
+.input_in_book_section{
+    border:none;
+    border-radius: 5px;
+    font-size: .8em;
+    width: 80%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.input_time_date_book_section{
+    border: none;
+    background: none;
+    font-size: 1em;
+    width: 80%; 
+}
+.input_four_of_Book,.input_three_of_Book{
+    text-align: center ;
+    padding-bottom: 3px;
+}
+} 
+/* -------------------------< login section >-------------------- */
 
-
-/* login section   */
 .conterner{
     display: flex;
     background: #7c5681;
