@@ -1,0 +1,483 @@
+
+/* Home_section  */
+/* Nav */
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+.Nav{
+    display: flex;
+    padding: 1%; 
+}
+.div_one_nav{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+.menu_logo{
+    display: none;
+}
+.div_own_in_ul{
+    display: flex;
+    margin-left: 48%;
+    gap:10px;  
+}
+.div_own_in_ul .div_botton_ul{
+    display: flex;
+    gap:20%;
+    align-items: center;
+}
+.null_div_in_nav{
+    border: 1px solid black;
+    height: 40%;     
+}
+.div_own_in_ul ul{
+     display: flex;
+     align-items: center;
+     gap: 50px;
+     font-size: 1rem;
+     font-weight: 900;
+     list-style: none;
+}
+/* div_next_in_nav */
+.div_next_in_nav{
+    background-image: url(/images/Picture\ Frame.png);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.p_in_section_one{
+    font-weight:300;
+    font-size: 3rem;;
+    color: hsl(0, 0%, 100%);
+    padding: 9% 0 0 9%;     
+}
+.btn_Home{
+    border: none;
+    border-radius:30px;
+    background: rgba(119, 113, 113, 0.573);
+    color: #ffffff;
+    font-size: 1.5em;
+    width: 20%;
+    height: 8%;
+    margin: 0  10%;
+}
+.btn_Home:hover{
+   background-color: #252424; 
+   color: #635d5d;
+}
+
+@media(max-width:412px) {
+body{
+    width:400px;
+}
+.Nav{ 
+    align-items: center; 
+    padding: 10px;
+}
+.div_one_nav img,h3{
+    font-size: 0.7em;
+    width: 35px;
+}
+.div_one_nav{
+    align-items: center;
+    gap: 10%;
+}
+.div_own_in_ul .div_botton_ul{
+    justify-content: end;
+    gap: 2%;
+}
+.menu_logo{
+    display: block;
+    width: 20%;
+}
+.null_div_in_nav{
+    display: none;    
+}
+.div_own_in_ul ul{
+    display: none;
+    
+}
+
+.div_next_in_nav{
+    height: 60vh;
+    width: 99%; 
+}
+.p_in_section_one{
+    font-size: 1.5em;;    
+}
+.btn_Home{
+    font-size: 0.8em;
+    width: 30%;
+    height: 6%;
+}   
+}
+/* --------<   Secand section  >----------------*/
+
+.Secand_section .contaner{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 3% 0;
+}
+.Secand_section .div_one{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: 12, 1fr;
+    text-align: center;
+    align-items: center;
+}
+.div_two_in_secand_section{
+    grid-column-start: 5;
+    grid-column-end: 13;
+    background-image: url(/images/OUR\ JOURNEY.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 45vh; 
+}
+.icon_one_in_sceand_section{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.icon_two_in_sceand_section{
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+.icon_three_in_sceand_section{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.icon_four_in_sceand_section{
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+.div_two_in_secand_section .h2-and-p-in-pictuer{
+    color: #fff;
+    margin: 4% 0 0 5%;
+    font-size: 1.5rem;
+    font-weight:400;
+}
+@media(max-width:412px){
+.Secand_section .div_one{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    justify-content: center;
+    padding: 3% 0;
+    gap: 5%;
+}
+.div_two_in_secand_section{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    height: 25vh; 
+}
+.icon_four_in_sceand_section{
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+.div_two_in_secand_section .h2-and-p-in-pictuer{
+    font-size: 0.9rem;
+} 
+.logo_1_in_secand_section{
+    width: 30px;
+}
+.Secand_section .div_one p{
+    font-size:0.5em;
+}
+.logo_2_in_secand_section{
+    width: 35px;
+}
+}
+/* ------------------< photo section >--------------- */
+
+/* PHoto section */
+.photo-contaner .first_div{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+.photo-section .h2-in-photo{
+    position: absolute;
+    margin: 20% 0 0 4%;
+    color: #ffff;
+    font-weight: 400; 
+    font-size: 50px;
+}
+.photo-section .p-in-photo{
+    position: absolute;
+    margin: 25% 0 0 4%;
+    color: #ffff;
+    font-size: x-large;
+}
+.Image-div-in-photo-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.Image-div-in-photo-section .img1{
+    grid-column: span 2;
+}
+.Image-div-in-photo-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* ------------------------< TALK OF THE TOWN >---------------------- */
+/*TALK OF THE TOWN */
+.big_div_in_TALK{
+    padding: 2% 0;
+    position: relative;
+    background-image: url(/images/FEEDBACK.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 70vh;
+}
+.title_TALK h2{
+    font-size: 2em;
+    font-weight: 900;
+}
+.title_TALK h3{
+    font-weight: 900;
+}
+.TALK_OF_THE_TOWN .contaner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.h3_in_big_div_in_TALK{
+    font-size: 2em;
+    font-weight: 100;
+}
+.TALK_OF_THE_TOWN .big_div_in_TALK p{
+    font-size: 1.7em;
+}
+.p_h3_img{
+    color: #fff;
+}
+
+@media(max-width:412px){
+.big_div_in_TALK{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%; 
+}
+.title_TALK h2{
+    font-size: 0.6em;
+}
+.title_TALK h3{
+    font-size: 0.4em;
+}
+.big_div_in_TALK img{
+    width: 10%;
+}
+.h3_in_big_div_in_TALK{
+    font-size: 0.8em;
+    width: 30%;
+}
+.TALK_OF_THE_TOWN .big_div_in_TALK p{
+    font-size: 0.5em;
+}
+.starts_div_in_TALK_OF_THE_TOWN{
+    width:50%;
+}
+}
+
+/* -----------------< section Book >--------------------- */
+
+
+
+
+
+
+/* Book section */
+.conterner-book{
+    display: flex;
+    margin:3%  0;
+}
+.book_all{
+    display: flex;
+    flex-direction: column;
+    padding:0 0 0 4%;
+}
+.h2-in-book{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.p-in-book{
+    font-size: x-large;
+}
+.form-book{
+    margin:3%;
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    gap: 60% 5%;
+    position: relative;
+}
+.input{
+    border:none;
+    border-bottom: 1px black solid;
+    font-size: large;
+}
+.btn-in-form-book{
+    position: absolute;
+    margin: 15% 300px;
+    font-size: larger;
+    padding: 10px 5px ;
+    border: none;
+    border-radius: 7px;
+    width: 200px;
+    background: #7c5681;
+    color: #fff;
+    outline: none;
+}
+
+
+/* login section   */
+.conterner{
+    display: flex;
+    background: #7c5681;
+    border-radius: 25px;
+    height: 60%;
+    position: relative;
+}
+.imag-in-longin-form{
+    height: 100%;
+    width: 50%;
+}
+.form-div{
+    position: absolute;
+    z-index: 2;
+    margin: 1% 3%;
+    color: rgba(220, 220, 220, 0.543);
+    width: 43%;
+    
+    
+
+}
+.login-form-section .form-div h3{
+    font-size: 1.5rem;
+}
+.login-form-section .form-div p{
+    font-size: 1.2em;
+}
+
+.input-div-in-login-form{
+    margin-top: 8%;
+    display:flex;
+    flex-direction: column;  
+    gap:40%;
+    height: 300px;
+    
+    
+}
+.i-l-f{
+    background: none;
+    font-size: large;
+    outline: none;
+   border: none;
+    color: rgba(234, 230, 230, 0.543);
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px grey;
+    
+}
+.betwn-input{
+    display: flex;
+    gap: 15%;
+}
+.login-form-section .btn-in-form{
+    position: absolute;
+    margin:60% 0 0 70% ;
+    font-size: larger;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 7px;
+    width: 170px;
+    background: #7c5681;
+    color: #fff;
+    outline: none;
+    
+}
+.contact-information{
+    padding: 5% 0 0 5%;
+    font-size: larger;
+}
+.in-information-in-login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+    font-size: larger;
+}
+.i-tag-in-login-form{
+    display: flex;
+    gap:15%;
+    margin-top: 160px;
+}
+
+/* footer section */
+footer .continer{
+    display: flex;
+    justify-content:space-between;
+
+}
+footer .lin-footer{
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin: 2% 0 0 0;
+}
+footer .cell-phone,.localtion,.email{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 250px;
+}    
+.between-in-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+footer h3{
+    font-size:30px;
+}    
+footer .the-end-div{
+    font-size: x-large;
+      text-align: right;
+    
+}
+footer .last-lu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
