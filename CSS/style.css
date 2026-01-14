@@ -195,34 +195,34 @@ body {
 /* ------------------< photo section >--------------- */
 
 /* PHoto section */
-.photo-contaner .first_div {
+.photo_contaner .first_div {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: bolder;
 }
-.photo-section .h2-in-photo {
+.photo_section .h2_in_photo {
   position: absolute;
   margin: 20% 0 0 4%;
   color: #ffff;
   font-weight: 400;
   font-size: 50px;
 }
-.photo-section .p-in-photo {
+.photo_section .p_in_photo {
   position: absolute;
   margin: 25% 0 0 4%;
   color: #ffff;
   font-size: x-large;
 }
-.Image-div-in-photo-section {
+.Image_div_in_photo_section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-.Image-div-in-photo-section .img1 {
+.Image_div_in_photo_section .img1 {
   grid-column: span 2;
 }
-.Image-div-in-photo-section img {
+.Image_div_in_photo_section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
