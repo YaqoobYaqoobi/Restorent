@@ -586,10 +586,6 @@ body {
   grid-column-end: 12;
 
 }
-
-
-
-
 .in_information_in_login_form {
   gap: 1px;
   margin-top:1px;
@@ -658,3 +654,6 @@ footer .last_lu {
   flex-direction: column;
   gap: 20px;
 }
+/* This part just respanve for the mobale and disk top
+
+no respanseve for all devies*/
