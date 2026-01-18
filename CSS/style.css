@@ -71,7 +71,7 @@ body {
 
 @media (max-width: 412px) {
   body {
-    width: 400px;
+    width:400px;
   }
   .Nav {
     align-items: center;
@@ -581,18 +581,22 @@ body {
   padding: 10px 5px;
   top: 30vh;
 }
+
 .contact_information {
   grid-column-start: 1;
   grid-column-end: 12;
-
+  padding: 5px 10px ;
+  
 }
 .in_information_in_login_form {
   gap: 1px;
-  margin-top:1px;
+  margin:0 0;
   font-size: small;
 }
 .i_tag_in_login_form {
-  margin-top: 0;
+  margin-top: 20px;
+  gap: 40px;
+
 }
 .imges_soiel {
   width: 30px;
@@ -654,6 +658,6 @@ footer .last_lu {
   flex-direction: column;
   gap: 20px;
 }
-/* This part just respanve for the mobale and disk top
-
-no respanseve for all devies*/
+@media(max-width:412px) {
+  
+}
