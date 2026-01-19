@@ -412,7 +412,7 @@ footer .last_lu {
 @media (max-width: 412px) {
   /* --------------------------------------Home section----------------------- */
   body {
-    width: 412px;
+    width: 400px;
     margin: auto auto;
   
   }
