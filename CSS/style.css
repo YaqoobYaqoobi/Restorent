@@ -409,10 +409,11 @@ footer .last_lu {
   flex-direction: column;
   gap: 20px;
 }
-@media (max-width: 412px) {
+/* ===========================================Mobile media================================================ */
+@media (max-width:600px){
   /* --------------------------------------Home section----------------------- */
   body {
-    width: 400px;
+    width: 98%;
     margin: auto auto;
   
   }
@@ -549,7 +550,7 @@ footer .last_lu {
     color: #fff;
   }
   .first_img_in_book {
-    width: 400px;
+    width:300%;
     height: 50vh;
   }
   .book_all {
@@ -561,10 +562,14 @@ footer .last_lu {
   .h2_in_book {
     font-size: 0.8em;
     font-weight: 900;
+    padding: 0% 10%;
   }
   .p_in_book {
     font-size: 0.6em;
-    padding-right: 20%;
+    padding: 0% 10%;
+  }
+  .form_in_book_section{
+    margin: 0 10%;
   }
   .imag_clock_in_book,
   .img_calendar_in_book {
@@ -584,7 +589,7 @@ footer .last_lu {
     border: none;
     border-radius: 5px;
     font-size: 0.8em;
-    width: 80%;
+    width: 60%;
     height: 25px;
     background-color: rgba(255, 255, 255, 0.5);
   }
@@ -599,7 +604,6 @@ footer .last_lu {
     text-align: center;
     padding-bottom: 3px;
   }
-
   /* --------------------------------------login form-------------------------- */
 .form_div {
     grid-column-start: 1;
@@ -696,12 +700,12 @@ footer .last_lu {
   footer .last_lu {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    width: 380px;
+    width: 100%;
     font-size: medium;
     background-color: #7c5681;
     border: 1px solid blueviolet;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
     border-radius: 20px;
   }
   .li_one {
@@ -721,4 +725,320 @@ footer .last_lu {
     grid-column-end: 8;
   }
 }
-/* ------------------------fnished of respanve for mobil--------------------- */
+/* ==========================================================Tablet Media================================================== */
+@media(max-width: 900px) {
+  /* --------------------------------------Home section----------------------- */
+  body {
+    width: 98%;
+    margin: auto auto;
+  
+  }
+  .Nav {
+    align-items: center;
+    padding: 10px;
+  }
+  .div_one_nav img,
+  h3 {
+    font-size: 0.7em;
+    width: 35px;
+  }
+  .div_one_nav {
+    align-items: center;
+    gap: 10%;
+  }
+  .div_own_in_ul .div_botton_ul {
+    justify-content: end;
+    margin-left: 1%;
+    gap: 2%;
+  }
+  .menu_logo {
+    display: block;
+    width: 20%;
+  }
+  .null_div_in_nav {
+  
+  }
+  .div_own_in_ul ul {
+    
+  }
+
+  .div_next_in_nav {
+    height: 60vh;
+    width: 99%;
+  }
+  .p_in_section_one {
+    font-size: 1.5em;
+  }
+  .btn_Home {
+    font-size: 0.8em;
+    width: 30%;
+    height: 6%;
+  }
+/* --------------------------------------------Secand section------------------ */
+  /* .Secand_section .div_one {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    justify-content: center;
+    padding: 3% 0;
+    gap: 5%;
+  }
+  .div_two_in_secand_section {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    height: 25vh;
+  }
+  .icon_four_in_sceand_section {
+    grid-column-start: 6;
+    grid-column-end: 12;
+  }
+  .div_two_in_secand_section .h2-and-p-in-pictuer {
+    font-size: 0.9rem;
+  }
+  .logo_1_in_secand_section {
+    width: 30px;
+  }
+  .Secand_section .div_one p {
+    font-size: 0.5em;
+  }
+  .logo_2_in_secand_section {
+    width: 35px;
+  }
+
+  /* --------------------------------------Phone section---------------------- */
+  .photo_contaner .first_div {
+    width: 100%;
+  }
+  .photo_contaner .first_div h3 {
+    width: 150px;
+    font-size: 0.5em;
+    text-align: center;
+  }
+  .photo_contaner .first_div h1 {
+    font-size: 1em;
+  }
+  .photo_section .h2_in_photo {
+    font-size: 1em;
+  }
+  .photo_section .p_in_photo {
+    font-size: 0.5em;
+    margin-right: 40%;
+  }
+  .Image_div_in_photo_section {
+    gap: 8px;
+  }
+  /* --------------------------------------TALK OF TOWN----------------------- */
+  .big_div_in_TALK {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+  }
+  .title_TALK {
+    width: 100%;
+  }
+  .title_TALK h2 {
+    font-size: 0.6em;
+  }
+  .title_TALK h3 {
+    font-size: 0.4em;
+    margin: 0 auto 4px;
+  }
+  .big_div_in_TALK img {
+    width: 10%;
+  }
+  .h3_in_big_div_in_TALK {
+    font-size: 0.8em;
+    width: 30%;
+  }
+  .TALK_OF_THE_TOWN .big_div_in_TALK p {
+    font-size: 0.5em;
+  }
+  .starts_div_in_TALK_OF_THE_TOWN {
+    width: 50%;
+  }
+
+  /* --------------------------------------BOOk section------------------------ */
+  .conterner_book {
+    position: relative;
+    gap: 0;
+    color: #fff;
+  }
+  .first_img_in_book {
+    width:300%;
+    height: 50vh;
+  }
+  .book_all {
+    padding: 15% 0 0 0;
+    position: absolute;
+    right: -30%;
+    width: 400px;
+  }
+  .h2_in_book {
+    font-size: 0.8em;
+    font-weight: 900;
+    padding: 0% 10%;
+  }
+  .p_in_book {
+    font-size: 0.6em;
+    padding: 0% 10%;
+  }
+  .form_in_book_section{
+    margin: 0 10%;
+  }
+  .imag_clock_in_book,
+  .img_calendar_in_book {
+    width: 10%;
+    margin-top: 5px;
+  }
+  .btn_in_form_book {
+    font-size: 0.8em;
+    padding: 7px 2px;
+    border: none;
+    border-radius: 7px;
+    background: #7c5681;
+    color: #fff;
+    outline: none;
+  }
+  .input_in_book_section {
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    width: 60%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .input_time_date_book_section {
+    border: none;
+    background: none;
+    font-size: 1em;
+    width: 80%;
+  }
+  .input_four_of_Book,
+  .input_three_of_Book {
+    text-align: center;
+    padding-bottom: 3px;
+  }
+  /* --------------------------------------login form-------------------------- */
+.form_div {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    padding: 2% 10%;
+  }
+  .login_form_section .form_div h3 {
+    font-size: 0.8rem;
+    width: 100px;
+  }
+  .login_form_section .form_div p {
+    font-size: 0.8em;
+  }
+  .input_div_in_login_form {
+    gap: 15%;
+    height: 40vh;
+  }
+  .conterner .login_form {
+    color: rgba(234, 230, 230, 0.543);
+  }
+  .i_l_f {
+    font-size: medium;
+    color: rgba(244, 241, 241, 0.543);
+  }
+  .input_div_in_login_form {
+    position: relative;
+  }
+  .login_form_section .btn_in_form {
+    font-size: small;
+    padding: 10px 5px;
+    top: 30vh;
+  }
+
+  .contact_information {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    padding: 5px 10px;
+  }
+  .in_information_in_login_form {
+    gap: 1px;
+    margin: 0 0;
+    font-size: small;
+  }
+  .i_tag_in_login_form {
+    margin-top: 20px;
+    gap: 40px;
+  }
+  .imges_soiel {
+    width: 20px;
+  }
+  /* footer section */
+  footer .continer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .insid {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 4;
+    padding: 20px;
+  }
+  footer .cell_phone,
+.localtion,
+.email {
+  display: flex;
+  align-items: center;
+
+}
+  .C_L_E {
+    width: 14px;
+  }
+
+  .between_in_footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+ .socelmdae_inefooter{
+  width: 20px;
+ } 
+  footer .the_end_div {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+  }
+  footer .last_lu {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    font-size: medium;
+    background-color: #7c5681;
+    border: 1px solid blueviolet;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px;
+  }
+  .li_one {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .li_tow {
+    grid-column-start: 4;
+    grid-column-end: 8;
+  }
+  .li_three {
+    grid-column-start: 8;
+    grid-column-end: 12;
+  }
+  .li_four {
+    grid-column-start: 1;
+    grid-column-end: 8;
+  } */
+}
