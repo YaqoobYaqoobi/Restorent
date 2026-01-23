@@ -5,9 +5,12 @@ body {
   margin: 0 auto;
 }
 .Nav {
+
   display: flex;
   padding: 1%;
 }
+
+
 .div_one_nav {
   display: flex;
   gap: 5%;
@@ -18,7 +21,7 @@ body {
 }
 .div_own_in_ul {
   display: flex;
-  margin-left: 48%;
+  margin-left: 52%;
   gap: 10px;
 }
 .div_own_in_ul .div_botton_ul {
@@ -60,7 +63,7 @@ body {
   color: #ffffff;
   font-size: 1.5em;
   width: 20%;
-  height: 8%;
+  padding: 10px;
   margin: 0 10% 10% ;
 }
 .btn_Home:hover {
@@ -286,6 +289,7 @@ body {
   grid-column-end: 8;
   padding: 1% 10% 35%;
   border-radius: 20px;
+  height:200px;
 }
 
 .login-form-section .form-div h3 {
@@ -900,5 +904,9 @@ footer .last_lu {
   .p_in_book {
     font-size: 1.4em;
   }
+  .form_div{
+    height: 55%;
+  }
 
 }
+/* finshed */
